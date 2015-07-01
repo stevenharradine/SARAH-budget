@@ -1,0 +1,28 @@
+.date, .add {
+	margin: 5px 0;
+}
+tfoot tr td {
+	font-weight: bold;
+}
+tbody tr:hover {
+	background: darkgrey;
+	cursor: default;
+}
+td .amount {
+	text-align: right;
+}
+
+@media all and (min-width:768px) {
+	div.dateOption-current {
+		width: 50%;
+		float: left;
+	}
+	div.selectTime-date {
+		width: 48%;
+		float: left;
+	}
+	div.selectTime-time {
+		width: 50%;
+		float: right;
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"title": "Budget",
+	"icon_id": "budget",
+	"users": [{
+		"type": "ADMIN"
+	}, {
+		"type": "USER"
+	}]
+}
